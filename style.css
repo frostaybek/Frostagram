@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    height: 84px;
+    background: #fff;
+    border-bottom: 1px solid black;
+}
+
+.img{
+    height: 83px;
+    width: 84px;
+    display: inline;
+}
+
+.header-h1{
+    display: inline-block;
+    line-height: 60px;
+    font-size: 42px;
+    position: absolute;
+    margin: 12px;
+}
+
+.btn{
+    float: right;
+    font-size: 26px;
+    text-decoration: none;
+    background: rgb(0, 140, 255);
+    color: white;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 6px;
+    transition: all ease .4s;
+    -webkit-user-drag: none;
+}
+
+.btn:hover{
+    background: rgb(14, 105, 179);
+}
+
+.btn:active{
+    background: rgb(17, 80, 132);
+}
+
+.aside{
+    height: calc(100% - 84px);
+    width: 200px;
+    border-right: 1px solid black;
+}
+
+.background{
+    background: rgb(217, 65, 9);
+    height: 60px;
+    font-size: 34px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.login-menu{
+    border-bottom: 1px solid black;
+    height: 170px;
+}
+
+.login-menu label{
+    font-size: 24px;
+    margin: 12px 2px 2px 8px;
+    display: inline-block;
+}
+
+.login-menu input{
+    width: 170px;
+    outline: none;
+    height: 26px;
+    padding-left: 6px;
+    font-size: 22px
+}
+
+.btn-menu{
+    border-bottom: 1px solid black;
+    height: 120px;
+}
+
+.btn-menu a{
+    text-decoration: none;
+    font-size: 26px;
+    display: block;
+    border-radius: 6px;
+    transition: all ease .4s;
+    margin: 0 auto;
+    margin-top: 12px;
+    text-align: center;
+    color: white;
+}
+
+#btn-btn-1{
+    background: rgb(0, 140, 255);
+    width: 120px;
+    height: 44px;
+    line-height: 44px;
+    -webkit-user-drag: none;
+}
+
+#btn-btn-1:hover{
+    background: rgb(19, 101, 169);
+}
+
+#btn-btn-1:active{
+    background: rgb(19, 72, 116);
+}
+
+#btn-btn-2{
+    background: rgb(9, 151, 9);
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    -webkit-user-drag: none;
+}
+
+#btn-btn-2:hover{
+    background: rgb(12, 103, 12);
+}
+
+#btn-btn-2:active{
+    background: rgb(7, 65, 7);
+}
+
+::selection{
+    background: rgb(0, 149, 255);
+}
+
+.bottom-menu{
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.main{
+    background: red;
+    width: max-content;
+    float: right;
+}
